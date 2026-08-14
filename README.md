@@ -116,6 +116,29 @@ The common thread across my recent projects is intentional control: agents recei
 
 These are not thin model wrappers. Each project explores a different production architecture, safety boundary, evaluation strategy, and user workflow.
 
+### 📈 RiskLedger
+
+[![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github)](https://github.com/DheerajMamidi2/risk-ledger)
+![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Typed_API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Coverage](https://img.shields.io/badge/Coverage-87.87%25-059669?style=flat-square)
+![Safety](https://img.shields.io/badge/Execution-Local_Paper_Only-111827?style=flat-square)
+
+An event-sourced, risk-governed paper-trading replay that demonstrates how to make a safety-critical AI workflow **deterministic, reviewable, and fail-closed**.
+
+- Deterministic analysis that cites a sealed market scenario and prevents look-ahead bias
+- Independent risk-policy veto, immutable proposal digest, and human approval bound to the exact event-stream version
+- Hard budgets for steps, retries, active time, and cost units; exhaustion safely stops the workflow
+- Local-only paper simulator with no broker adapter, credentials, market-data dependency, or real-money path
+- Append-only, hash-linked event history and an independent reconciler that must balance before completion
+- **47 passing tests and 87.87% coverage** across unit, integration, and local-demo flows
+
+<details>
+<summary><b>Why this architecture matters</b></summary>
+<br>
+RiskLedger treats “no trade” as a valid safe result. Generating a proposal never grants execution authority: a separate policy must pass, a human must approve the exact proposal in time, and an independent reconciler must verify the simulated outcome.
+</details>
+
 ### 🚨 IncidentPilot
 
 [![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github)](https://github.com/DheerajMamidi2/incident-pilot)
@@ -153,7 +176,7 @@ An evidence-grounded, human-approved multi-agent system for tailoring job-applic
 - Explicit skill gaps when experience is unsupported, with no unmatched-evidence fallback
 - Citation review that rejects unsupported language even when it is attached to a valid evidence ID
 - Final state exposes a reviewable draft, not an employer-contact or application-submission tool
-- **19 passing tests, 98% statement coverage**, and a versioned capability corpus with 100% scores across five measured behaviors
+- **20 passing tests, 98.25% statement coverage**, and a versioned capability corpus with 100% scores across five measured behaviors
 
 <details>
 <summary><b>Measured capability baseline</b></summary>
