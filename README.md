@@ -116,6 +116,18 @@ The common thread across my recent projects is intentional control: agents recei
 
 These are not thin model wrappers. Each project explores a different production architecture, safety boundary, evaluation strategy, and user workflow.
 
+### 🗺️ Project Map
+
+| If you want to explore... | Start here | Strongest engineering signal |
+|---|---|---|
+| Risk-governed decision systems | **[RiskLedger](https://github.com/DheerajMamidi2/risk-ledger)** | Event sourcing, independent policy veto, digest-bound approval, and reconciliation |
+| Safe incident-response automation | **[IncidentPilot](https://github.com/DheerajMamidi2/incident-pilot)** | Bounded state machine, independent allowlists, and fresh SLO verification |
+| Truthful, evidence-grounded GenAI | **[Career Application Copilot](https://github.com/DheerajMamidi2/career-application-copilot)** | Specialist LangGraph workflow, citation review, and explicit human gating |
+| Parallel review agents at the edge | **[PR Sentinel](https://github.com/DheerajMamidi2/pr-sentinel)** | Failure-isolated actor fan-out, line-cited evidence, and fail-closed synthesis |
+| Local-first developer intelligence | **[Personal Code Agent V2](https://github.com/DheerajMamidi2/personal-code-agent-v2)** | Secret-aware indexing, hybrid retrieval, diff previews, and allowlisted validation |
+| Multimodal personal intelligence | **[Interest Intelligence Agent](https://github.com/DheerajMamidi2/interest-intelligence-agent)** | Structured cards, configurable reasoning modes, and reviewable knowledge capture |
+| Motion-rich frontend engineering | **[Developer Portfolio](https://dheerajmamidi2.github.io/portfolio-rebuild/)** | GSAP case storytelling, responsive fallbacks, accessibility, and performance |
+
 ### 📈 RiskLedger
 
 [![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github)](https://github.com/DheerajMamidi2/risk-ledger)
