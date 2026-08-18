@@ -81,37 +81,6 @@ The common thread across my recent projects is intentional control: agents recei
 
 ---
 
-## 💼 Professional Experience & Impact
-
-### 🎓 Saint Louis University - GenAI / ML Engineer
-`Jan 2025 - Present`
-
-- Shipped an **LLM-powered learning and research assistant** used across multiple departments, reducing average time-to-answer by approximately **40%** through **RAG, semantic search, and FastAPI services**.
-- Architected an enterprise **RAG pipeline** across research papers, institutional documents, and structured data using **LangChain, LangGraph, FAISS, and hybrid retrieval (BM25 + embeddings)**.
-- Designed **agentic, human-in-the-loop workflows** for planning, retrieval, validation, and task routing.
-- Built recommendation and early-intervention ML capabilities from learner engagement and performance signals.
-- Productionized AI workloads with **Docker, Azure, Databricks, MLflow, structured logging, evaluation pipelines, and responsible-AI guardrails**.
-
-### 📊 Boston Consulting Group (BCG) - Data Scientist
-`Aug 2023 - Dec 2024`
-
-- Improved model **AUC-ROC by approximately 14%** and scored **500K+ records daily at sub-100 ms latency** using XGBoost, LightGBM, and Isolation Forest.
-- Reduced manual document-review time by approximately **55%** with a **BERT-based document-intelligence pipeline**.
-- Applied **SHAP and LIME** for explainability, model cards, fairness analysis, and regulatory review.
-- Built customer segmentation, NLP risk monitoring, forecasting, and production ML services using **PySpark, MLflow, AWS SageMaker, REST APIs, and React dashboards**.
-- Translated model results, assumptions, and trade-offs into clear recommendations for technical and non-technical stakeholders.
-
-### 🏭 Bosch - Data Engineer
-`Feb 2021 - Jun 2022`
-
-- Centralized data from **6+ enterprise sources** into governed ETL/ELT pipelines with **PySpark and Apache Airflow**.
-- Reduced downstream pipeline errors by approximately **45%** through automated schema, integrity, freshness, and statistical quality checks.
-- Improved reporting and query performance through **Databricks, Azure, PostgreSQL, MySQL, indexing, and schema optimization**.
-- Developed secure **REST APIs**, CI/CD automation, infrastructure-as-code workflows, monitoring, and unit/integration test coverage.
-- Delivered backend and internal web tooling with **Python, Django, SQL, JWT, and role-based access control**.
-
----
-
 ## 🚀 Featured AI Systems
 
 These are not thin model wrappers. Each project explores a different production architecture, safety boundary, evaluation strategy, and user workflow.
