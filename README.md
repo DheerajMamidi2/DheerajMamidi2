@@ -43,7 +43,7 @@
 
 ## 👨‍💻 About Me
 
-I am an **Applied AI / ML Engineer and Full-Stack Developer** with 5+ years of experience building **LLM applications, retrieval-augmented generation systems, predictive models, data platforms, APIs, and production-facing interfaces**.
+I am an **Applied AI / ML Engineer and Full-Stack Developer** building **LLM applications, retrieval-augmented generation systems, predictive models, data platforms, APIs, and production-facing interfaces**.
 
 I like working across the entire path from an ambiguous idea to a system people can trust: defining the decision, preparing the data, designing retrieval or model behavior, creating typed service boundaries, building the interface, evaluating quality, and instrumenting what happens after release.
 
@@ -59,9 +59,9 @@ My work spans the complete AI product lifecycle:
 
 ### At a glance
 
-| Experience | Production scale | Product impact | Public project quality |
-|---|---:|---:|---:|
-| **5+ years** across AI, data science, and data engineering | **500K+** records scored daily | Up to **55%** less manual review | Up to **98%** statement coverage |
+| Production scale | Product impact | Public project quality |
+|---:|---:|---:|
+| **500K+** records scored daily | Up to **55%** less manual review | Up to **98%** statement coverage |
 
 ### How I engineer agentic systems
 
@@ -301,19 +301,6 @@ An editorial, motion-rich portfolio presenting AI work as a sequence of visual r
 - **Microsoft Certified: Azure AI Engineer Associate (AI-102)**
 - **AWS Certified Machine Learning - Specialty**
 - **Databricks Certified Data Engineer Associate**
-
----
-
-## 📊 GitHub Snapshot
-
-<div align="center">
-
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DheerajMamidi2&theme=tokyonight" alt="Dheeraj Mamidi GitHub contribution summary"/>
-
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DheerajMamidi2&theme=tokyonight" alt="Repositories by language"/>
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DheerajMamidi2&theme=tokyonight" alt="GitHub contribution statistics"/>
-
-</div>
 
 ---
 
